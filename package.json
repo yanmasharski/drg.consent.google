@@ -1,0 +1,16 @@
+{
+    "name": "com.drg.consent.google",
+    "version": "0.9.0",
+    "displayName": "DRG Consent — Google UMP",
+    "description": "Google UMP (User Messaging Platform) adapter for DRG Consent. Requires GoogleMobileAds to be installed separately.",
+    "unity": "2022.3",
+    "author": {
+        "name": "Jan Mašarski",
+        "email": "yanmasharski@gmail.com",
+        "url": "https://yanmasharski.github.io"
+    },
+    "dependencies": {
+        "com.drg.consent": "https://github.com/yanmasharski/drg.consent.git#0.9.0",
+        "com.drg.core": "https://github.com/yanmasharski/drg.core.git#1.0.0"
+    }
+}

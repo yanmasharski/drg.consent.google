@@ -1,0 +1,17 @@
+{
+    "name": "DRG.Consent.Google",
+    "rootNamespace": "DRG.Consent",
+    "references": [
+        "DRG.Consent",
+        "DRG.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

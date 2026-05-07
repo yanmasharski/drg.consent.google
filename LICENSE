@@ -1,5 +1,5 @@
 DRG FAIR USE LICENSE
-Version 1.0, 2026
+Version 1.1, 2026
 
 Copyright (c) 2026 Jan Mašarski <yanmasharski@gmail.com>
 All rights reserved.
@@ -9,9 +9,9 @@ PREAMBLE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 This License allows broad use of the Software at no cost to individuals
-and small organizations, while requiring a modest annual contribution from
-larger commercial users. The fee is not a purchase price but a fair share
-of the cost of creating and maintaining the Software.
+and small organizations, while requiring a modest monthly contribution
+from larger commercial users. The fee is not a purchase price but a
+fair share of the cost of creating and maintaining the Software.
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -42,9 +42,8 @@ not at the level of a single product or project.
 
 "Licensor" means Jan Mašarski, the copyright holder of the Software.
 
-"License Year" means each calendar year (January 1 through December 31)
-during which You use, distribute, or otherwise exercise rights under
-this License.
+"License Month" means each calendar month during which You use,
+distribute, or otherwise exercise any rights under this License.
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -70,32 +69,46 @@ any ownership of intellectual property rights.
 
 3.1  Free Use
 
-  Use of the Software is free if Your Annual Gross Revenue for a License
-  Year is less than USD 100,000.
+  Use of the Software is free of charge if Your Annual Gross Revenue
+  for the most recently completed calendar year is less than
+  USD 100,000.
+
+  If You are a new entity with no completed calendar year of revenue,
+  the free threshold applies until the end of Your first full calendar
+  year of operation.
 
 3.2  Fee Schedule
 
-  If Your Annual Gross Revenue for a License Year meets or exceeds the
-  thresholds below, You are required to pay the Licensor an annual fee
-  for that License Year:
+  If Your Annual Gross Revenue for the most recently completed calendar
+  year meets or exceeds the thresholds below, You are required to pay
+  the Licensor a monthly fee for each License Month:
 
-  ┌────────────────────────────────────────┬──────────────────┐
-  │ Annual Gross Revenue (USD)             │ Annual Fee (USD) │
-  ├────────────────────────────────────────┼──────────────────┤
-  │ 100,000 – 999,999                      │            100   │
-  │ 1,000,000 – 9,999,999                  │          1,000   │
-  │ 10,000,000 and above                   │         10,000   │
-  └────────────────────────────────────────┴──────────────────┘
+  ┌────────────────────────────────────────┬───────────────────┐
+  │ Annual Gross Revenue (USD)             │ Monthly Fee (USD) │
+  ├────────────────────────────────────────┼───────────────────┤
+  │ 100,000 – 999,999                      │              10   │
+  │ 1,000,000 – 9,999,999                  │             100   │
+  │ 10,000,000 and above                   │           1,000   │
+  └────────────────────────────────────────┴───────────────────┘
+
+  The applicable fee tier is reassessed each January 1 based on the
+  Annual Gross Revenue of the preceding calendar year. If Your revenue
+  crosses a threshold during the year, the new tier applies from
+  January 1 of the following year; mid-year adjustments are not
+  required.
 
 3.3  Payment Timing
 
-  For each License Year, the fee is due no later than March 31 of the
-  following calendar year (e.g., the fee for 2026 is due by March
-  31, 2027).
+  The monthly fee for each License Month is due no later than the
+  15th day of the immediately following calendar month (e.g., the
+  fee for March is due by April 15).
 
-  For the first License Year of use, the fee is due within ninety (90)
-  days of the date on which You first exercise any rights under this
-  License.
+  For Your first License Month, the fee is due within thirty (30) days
+  of the date on which You first exercise any rights under this License.
+
+  The simplest and recommended method of compliance is to set up a
+  recurring monthly sponsorship at the applicable amount, which
+  satisfies this obligation automatically.
 
 3.4  Payment Method
 
@@ -103,9 +116,8 @@ any ownership of intellectual property rights.
 
     https://github.com/sponsors/yanmasharski
 
-  The Licensor may designate alternative payment methods by publishing
-  notice in the repository containing this License. Such designation
-  does not affect obligations already accrued.
+  The Licensor may designate additional or alternative payment methods
+  by publishing notice in the repository containing this License.
 
 3.5  Self-Reporting and Good Faith
 
@@ -116,13 +128,12 @@ any ownership of intellectual property rights.
   to reduce or avoid a fee obligation constitutes a material breach of
   this License and may constitute fraud under applicable law.
 
-3.6  Non-Payment Grace Period
+3.6  Grace Period
 
-  If You fail to pay a fee by the applicable due date, the Licensor
-  will use reasonable efforts to notify You of the outstanding
-  obligation. You have thirty (30) days from the due date (the "Grace
-  Period") to cure the breach by paying all outstanding fees. If payment
-  is not received within the Grace Period, this License terminates
+  If You fail to pay a fee by the applicable due date under Section 3.3,
+  You have thirty (30) days from that due date (the "Grace Period") to
+  cure the breach by paying all outstanding fees. If full payment is
+  not received within the Grace Period, this License terminates
   automatically pursuant to Section 8.
 
 
@@ -139,8 +150,8 @@ any ownership of intellectual property rights.
   (b) Derivative Works must be distributed under this License or under
       a license with terms that are equivalent to or more restrictive
       than the fee obligations set forth in Section 3. You may not
-      distribute Derivative Works under terms that eliminate, reduce, or
-      circumvent those fee obligations.
+      distribute Derivative Works under terms that eliminate, reduce,
+      or circumvent those fee obligations.
 
   (c) Each recipient of a Derivative Work automatically receives a
       license from the Licensor under the terms of this License,
@@ -360,8 +371,9 @@ and do not constitute a sale of the Software or any part thereof.
 
 10.8  Contact
 
-  For questions regarding this License, fee obligations, or payment,
-  contact the Licensor at: yanmasharski@gmail.com
+  For licensing questions, fee obligations, or payment arrangements:
+    Email:           yanmasharski@gmail.com
+    GitHub Sponsors: https://github.com/sponsors/yanmasharski
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 

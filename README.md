@@ -19,13 +19,24 @@ locator.Register<IConsentPlatform>(consent);
 
 ## External requirement
 
-Google Mobile Ads Unity plugin must be installed separately. UMP is bundled with GMA.  
-Install via OpenUPM: `https://developers.google.com/admob/unity/quick-start#openupm`
+Install the **Google Mobile Ads Unity plugin** in the consuming project. UMP APIs (`GoogleMobileAds.Ump.Api`) ship inside that plugin.
+
+**Unity package ID:** **`com.google.ads.mobile`**
+
+This plugin is **not** listed on [Google APIs for Unity — archive](https://developers.google.com/unity/archive). Use the flows Google documents—for example OpenUPM with the `com.google` scope or a `.unitypackage` from GitHub—as described in [AdMob Unity quick start](https://developers.google.com/admob/unity/quick-start).
+
+**Recommendation:** For Google Unity packages published on [Google APIs for Unity — archive](https://developers.google.com/unity/archive), prefer `.tgz` entries in `Packages/manifest.json`. Mobile Ads (`com.google.ads.mobile`) follows the AdMob distribution paths linked above.
 
 ## Dependencies
 
+**Declared in `package.json` (bundled with this package):**
+
 - `com.drg.consent`
 - `com.drg.core`
+
+**Must be added separately in the host project:**
+
+- `com.google.ads.mobile` — Google Mobile Ads Unity plugin (includes UMP).
 
 ## Install
 
